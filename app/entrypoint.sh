@@ -33,7 +33,6 @@ fi
 /app/acme_issue.sh
 
 /usr/sbin/cron -f &
-sleep INFINITY &
 pid=$!
 wait $pid
 echo "exit."
